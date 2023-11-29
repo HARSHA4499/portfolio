@@ -18,7 +18,7 @@ function ProjectDisplay() {
     <p>
         <b>Skills:</b>{project.skills}
     </p>
-    <GithubIcon/>
+    <a href={project.link}><GithubIcon/></a>
   </div>
   )
 }

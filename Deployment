@@ -1,0 +1,13 @@
+If you make snay changes in the code, run following commands,
+
+git remote add origin <repository url>
+
+after adding repository,
+
+git add .
+git commit -m <message>
+git push
+
+Then finally run,
+
+npm run deploy
